@@ -1,6 +1,6 @@
 const modhash = window.reddit.modhash;
-const width = 78;
-const height = 45;
+const width = 83;
+const height = 11;
 var sec = 0, index = Math.floor(Math.random() * (width * height));
 setInterval(() => console.log("Drawing in " + (sec--) + " seconds"), 1e3);
 const draw = seconds => {
